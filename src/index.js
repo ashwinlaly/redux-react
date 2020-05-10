@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const ThemeContext = React.createContext('light')
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ThemeContext.Provider value="light">
+    <StrictMode>
+      <App />
+    </StrictMode>
+  </ThemeContext.Provider>,
   document.getElementById('root')
 );
 

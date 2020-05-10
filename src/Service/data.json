@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Ashwin",
+        "email" : "ashwinlaly@gmail.com",
+        "age" : 23,
+        "image" : "https://wallpaperaccess.com/full/218455.jpg"
+    },
+    {
+        "name" : "jismon",
+        "email" : "jismon@gmail.com",
+        "age" : 11,
+        "image" : "https://wallpaperaccess.com/full/218455.jpg"
+    },
+    {
+        "name" : "joel",
+        "email" : "joel@gmail.com",
+        "age" : 14,
+        "image" : "https://wallpaperaccess.com/full/218455.jpg"
+    }
+]
