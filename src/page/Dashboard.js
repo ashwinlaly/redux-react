@@ -7,6 +7,8 @@ const Dashboard = () => {
             Dashboard
             <br/>
             <Link to="posts">Posts</Link>
+            <br/>
+            <Link to="fblogin">FB</Link>
         </div>
     )
 }

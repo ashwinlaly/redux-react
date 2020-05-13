@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 
 import dashboard from './page/Dashboard';
 import posts from './page/Postpage';
+import Sociallogin from './page/Sociallogin';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={dashboard}/>
         <Route exact path="/posts" component={posts}/>
+        <Route exact path="/fblogin" component={Sociallogin}/>
         <Redirect to="/" />
       </Switch>
     </Router>
